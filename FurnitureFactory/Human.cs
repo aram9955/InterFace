@@ -32,6 +32,19 @@ namespace FurnitureFactory
             throw new NotImplementedException();
 
         }
+        public class Blogger : IWalk, IReport
+        {
+
+            public void Report()
+            {
+                throw new NotImplementedException();
+            }
+            public void Walk()
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         public class Doctor : IWalk
         {
             public void Walk()
